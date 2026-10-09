@@ -16,7 +16,7 @@ This project finds out how people feel about airlines on Twitter. It cleans the 
    pip install -r requirements.txt
 ```
    (On Mac/Linux use `source .venv/bin/activate` instead.)
-3. Open `sentiment_analysis.ipynb` in Jupyter or VS Code and run the cells from top to bottom. The first run downloads a few small NLTK files, so you need internet once.
+3. Open `sentiment_analysis.ipynb` in Jupyter or VS Code, select the **`.venv` (Python)** kernel, then run the cells from top to bottom. The first run downloads a few small NLTK files, so you need internet once.
 4. Charts, word clouds and the labeled tweets are saved in the `outputs/` folder.
 
 ## Dataset source
