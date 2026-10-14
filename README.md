@@ -6,8 +6,8 @@ This project finds out how people feel about airlines on Twitter. It cleans the 
 
 1. Clone the repo and go into the folder:
 ```
-   git clone https://github.com/urham-m/airline-sentiment-analysis.git
-   cd airline-sentiment-analysis
+   git clone https://github.com/urham-m/social-media-sentiment-analysis
+   cd social-media-sentiment-analysis
 ```
 2. Create a virtual environment and install the requirements:
 ```
@@ -16,8 +16,12 @@ This project finds out how people feel about airlines on Twitter. It cleans the 
    pip install -r requirements.txt
 ```
    (On Mac/Linux use `source .venv/bin/activate` instead.)
-3. Open `sentiment_analysis.ipynb` in Jupyter or VS Code, select the **`.venv` (Python)** kernel, then run the cells from top to bottom. The first run downloads a few small NLTK files, so you need internet once.
-4. Charts, word clouds and the labeled tweets are saved in the `outputs/` folder.
+
+3. Open `sentiment_analysis.ipynb` in Jupyter or VS Code. Select the **`.venv` (Python)** kernel, then run the cells from top to bottom.
+
+4. The dashboard opens inside the notebook, or at `http://localhost:8050`.
+
+5. Results are saved in the `outputs/` folder.
 
 ## Dataset source
 
